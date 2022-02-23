@@ -1,0 +1,162 @@
+body {
+  font-family: 'Nunito', sans-serif;
+  text-align: center;
+  background-color: #e0e0e0;
+}
+h1{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+p{
+  font-size: 1.5rem;
+}
+hr {
+  border: dotted #8d4d49 4px;
+  border-bottom: none;
+  width: 70%;
+}
+/* Title */
+#title {
+  background-color: #e0e0e0;
+  font-size: 1.2rem;
+}
+
+.container-fluid {
+  padding: 3% 15%;
+}
+
+/* Profile */
+.profile-img {
+  float: right;
+  width: 70%;
+}
+.profile-div {
+  padding-left: 200px;
+  margin-left: 100px;
+}
+.profile {
+  padding: 5% 30% 5% 0;
+}
+
+/* About Me */
+#about {
+  position: relative;
+  background-color: #e0e0e0;
+}
+
+.about-box {
+  padding: 5%;
+  padding-bottom: 0px;
+}
+
+.icon {
+  color: #395778;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #707042;
+}
+
+.feature-title {
+  font-size: 2.5rem;
+  line-height: 1.5;
+  font-weight: 900;
+}
+
+/* Projects */
+#projects {
+  background-color: #e0e0e0;
+}
+
+.project-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+  margin-left: 100px;
+}
+.project-text {
+  font-size: 2rem;
+  line-height: 1.5;
+  font-weight: 900;
+}
+.carousel-control-next,
+.carousel-control-prev /*, .carousel-indicators */ {
+    filter: invert(100%);
+}
+
+/* Skills */
+#skills {
+  padding: 3% 15% 3% 15%;
+  background-color: #e0e0e0;
+}
+#skills ul > li { min-height: 30px; padding: 10px 0px; }
+.profile-row {
+  width: 98%;
+  text-align: left;
+  line-height: 2;
+}
+
+ul.no-bullets {
+  list-style-type: none;
+  text-align: left;
+}
+
+.ability-score {
+  width: 300px;
+  float: none;
+  padding-left: 20px;
+}
+
+/* Contact */
+#contact {
+  background-color: #e0e0e0;
+  padding: 3% 37%;
+}
+
+/* Navigation Bar */
+.navbar {
+  padding: 0 0 1.5rem;
+}
+
+.navbar-brand {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 0.7rem;
+  color: #403c3c;
+}
+
+.nav-item {
+  padding: 0 5px;
+}
+
+.navbar-light .navbar-brand {
+    color: #8d4d49;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: #8d4d49;
+}
+
+/* Download Buttons */
+.download-button {
+  margin: 5% 3% 5% 0;
+  background-color: #707042;
+  color: #000000;
+}
+
+/* Footer Section*/
+#footer {
+  background-color: #8d4d49;
+}
+.social-icon {
+  margin: 20px 10px;
+}
+
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+}
